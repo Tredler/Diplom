@@ -7,35 +7,40 @@ body{
     width: 100%;
     height: 15vh;
     max-height:160px;
-    overflow-x: hidden;
 	background-color:#ffce50;
 	text-align:center;
 }
-.content{
-	background-color:#af27ef;
-	
+
+.orbits{
+	position:absolute;
+	Transform:translate(40%);
+	height:30vh;
+	width:55vw;
+	min-width:300px;
+	margin-top:35vh;
+	background:url(images/krugi.png) no-repeat center/contain;
+		background-color:#000;
+
 }
 
-.BotClouds{
-	position:fixed;
-	width: 40vh;
-	max-width:500px;
-	max-height: 300px;
-	min-height: 200px;
-	min-width: 400px;
-/* 	height: 40vh; */
- 	margin-left:-5%;
-	bottom:-4%;
-	background:url(images/obl4.png) no-repeat center/contain;
-}
-/*.BottomClouds{
-	width: 100vh;
-    height: 100vh;
-}
-#bc1{
-	height: 14vh;
-	width: 14vh;
+#planet1{
+	position:absolute;
+	Transform:translate(50%);
+	height:8vh;
+	width:14vw;
+	max-width:150px;
+	margin-top:10vh;
+	background:url(images/pl1.png) no-repeat center/contain;
 	
-	background:url(images/obl4.png) no-repeat center;
 }
-*/
+/* #c1 { */
+	/* position:absolute; */
+	/* width: 160px; */
+	/* height: 160px; */
+	/* margin-top:40vh; */
+	/* margin-left:37vw; */
+	/* border-radius: 40vh; */
+	/* background-color:#fff; */
+	/* left:40%; */
+	/* z-index:0; */
+/* } */
