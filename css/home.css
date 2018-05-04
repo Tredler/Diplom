@@ -50,16 +50,16 @@ section{
 	height:30%;
 	width:60%;
 	transform:translate(50%, 50%);
-	left:-20%;
-	top: 12%;
+	left:-9%;
+	top: 20%;
 }
 
 .orb1{
 	/* display:flex; */
 	/* align-items:center; */
 	/* margin:0 auto; */
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	/* border-radius: 40vh; */
 	background-color:#fff;
 }
@@ -68,8 +68,8 @@ section{
 	/* display:flex; */
 	/* align-items:center; */
 	/* margin: auto; */
-	width: 290px;
-	height: 290px;
+	width: 190px;
+	height: 190px;
 	/* border-radius: 40vh; */
 	background-color:#1721a3;
 }
@@ -77,8 +77,8 @@ section{
 	/* display:flex; */
 	/* align-items:center; */
 	/* margin: auto; */
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	/* border-radius: 40vh; */
 	background-color:#fff;
 }
@@ -87,15 +87,15 @@ section{
 	/* display:flex; */
 	/* align-items:center; */
 	/* margin: auto; */
-	width: 190px;
-	height: 190px;
+	width: 140px;
+	height: 140px;
 	/* border-radius: 40vh; */
 	background-color:#1721a3;
 }
 .cat{
 	margin: auto;
-	width: 140px;
-	height: 140px;
+	width: 120px;
+	height: 120px;
 	background:url(images/GO.png) no-repeat center/contain;
 }
 
@@ -115,8 +115,25 @@ section{
 	/*right: -15%;*/
 	background: url(images/obl32.png) no-repeat center/contain;
 	/*background-position: 50vw -50vh;*/
+/* <<<<<<< Clouds */
+	/*background-position: 20vw -5vh;!*для мобильного*!*/
+	/*background-position: 20vw -50vh; !*для десктопа*!*/
+}
+
+@media only screen
+    /* and ( min-height:700px)  */
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+
+}
+
+
+
+/* ======= */
 	/*background-position: 20vw -5vh;!*Ð´Ð»Ñ Ð¼Ð¾Ð±Ð¸Ð»ÑŒÐ½Ð¾Ð³Ð¾*!*/
 	/*background-position: 20vw -50vh; !*Ð´Ð»Ñ Ð´ÐµÑÐºÑ‚Ð¾Ð¿Ð°*!*/
 }
 
 
+/* >>>>>>> master */
