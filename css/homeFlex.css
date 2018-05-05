@@ -1,0 +1,147 @@
+body{
+	background-color:#1721a3;
+	text-align:center;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+header {
+	position: fixed;
+	top:-999px;
+	width: 100%;
+	height: 10vh;
+	max-height:160px;
+	background-color:#ffce50;
+	/*text-align:center;*/
+}
+
+main{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+section{
+	height: 100%;
+	flex: 1;
+	display: flex;
+	/*flex-flow: c;*/
+
+}
+
+.center{
+	display:flex;
+	align-items:center;
+	margin: auto;
+	border-radius: 40vh;
+}
+
+.orbits{
+	/* display:flex; */
+	/* align-items:center; */
+	position: absolute;
+	height:30%;
+	width:60%;
+	transform:translate(50%, 50%);
+	left:-9%;
+	top: 20%;
+}
+
+.orb1{
+	/* display:flex; */
+	/* align-items:center; */
+	/* margin:0 auto; */
+	width: 200px;
+	height: 200px;
+	/* border-radius: 40vh; */
+	background-color:#fff;
+}
+
+.orb2{
+	/* display:flex; */
+	/* align-items:center; */
+	/* margin: auto; */
+	width: 190px;
+	height: 190px;
+	/* border-radius: 40vh; */
+	background-color:#1721a3;
+}
+.orb3{
+	/* display:flex; */
+	/* align-items:center; */
+	/* margin: auto; */
+	width: 150px;
+	height: 150px;
+	/* border-radius: 40vh; */
+	background-color:#fff;
+}
+
+.orb4{
+	/* display:flex; */
+	/* align-items:center; */
+	/* margin: auto; */
+	width: 140px;
+	height: 140px;
+	/* border-radius: 40vh; */
+	background-color:#1721a3;
+}
+.cat{
+	margin: auto;
+	width: 120px;
+	height: 120px;
+	background:url(images/GO.png) no-repeat center/contain;
+}
+
+.down1{
+	width:100%;
+	/*ÃÅ¸Ã‘â‚¬ÃÂ¾ÃÂ¿ÃÂ¸Ã‘ÂÃÂ°Ã‘â€šÃ‘Å’ ÃÂºÃÂ°ÃÂº Ã‘ÂÃÂ²ÃÂ¾ÃÂ¹Ã‘ÂÃ‘â€šÃÂ²ÃÂ¾ ÃÂ´ÃÂ»Ã‘Â ÃÂ¼ÃÂ¾ÃÂ±ÃÂ¸ÃÂ»Ã‘Å’ÃÂ½ÃÂ¾ÃÂ³ÃÂ¾*/
+
+	background:url(images/obl4.png) no-repeat center;
+	/* 	background-origin: padding-box; */
+	/* background-clip: content-box; */
+	/* background-attachment: fixed; */
+	background-position: bottom;
+
+	/* 	background-position: 50% 70%;/*ÃÂ´ÃÂ»Ã‘Â ÃÂ´ÃÂµÃ‘ÂÃÂºÃ‘â€šÃÂ¾ÃÂ¿ÃÂ°*/
+	background-size:contain;
+	/* background-attachment: fixed; */
+}
+
+.top1 {
+	height: 100%;
+	width:100%;
+	align-self: flex-start;
+	/*top:-50%;*/
+	/*right: -15%;*/
+	background: url(images/obl32.png) no-repeat center/contain;
+	background-position: top;
+	/* 	background-position: 50vw -50vh; */
+	/* <<<<<<< Clouds */
+	/*background-position: 20vw -5vh;!*Ð´Ð»Ñ Ð¼Ð¾Ð±Ð¸Ð»ÑŒÐ½Ð¾Ð³Ð¾*!*/
+	/*background-position: 20vw -50vh; !*Ð´Ð»Ñ Ð´ÐµÑÐºÑ‚Ð¾Ð¿Ð°*!*/
+}
+
+@media only screen
+	/* and ( min-height:700px)  */
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+
+}
+
+
+
+/* ======= */
+/*background-position: 20vw -5vh;!*ÃÂ´ÃÂ»Ã‘Â ÃÂ¼ÃÂ¾ÃÂ±ÃÂ¸ÃÂ»Ã‘Å’ÃÂ½ÃÂ¾ÃÂ³ÃÂ¾*!*/
+/*background-position: 20vw -50vh; !*ÃÂ´ÃÂ»Ã‘Â ÃÂ´ÃÂµÃ‘ÂÃÂºÃ‘â€šÃÂ¾ÃÂ¿ÃÂ°*!*/
+
+
+
+/* >>>>>>> master */

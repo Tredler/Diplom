@@ -1,39 +1,40 @@
 body{
 	background-color:#1721a3;
-    text-align:center;
+	text-align:center;
 
 }
 *{
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 
 header {
-    position: fixed;
+	position: fixed;
 	top:-999px;
-    width: 100%;
-    height: 10vh;
-    max-height:160px;
+	width: 100%;
+	height: 10vh;
+	max-height:160px;
 	background-color:#ffce50;
 	/*text-align:center;*/
 }
 
 main{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-flow: row wrap;
-	
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-flow: row wrap;
+
 }
 
 section{
-    height: 100%;
-    flex: 1;
-    display: flex;
-    /*flex-flow: c;*/
-	
+	height: 100%;
+/* 		width: 100%; */
+	/*flex: 1;*/
+	/*display: flex;*/
+	/*flex-flow: c;*/
+
 }
 
 .center{
@@ -46,93 +47,123 @@ section{
 .orbits{
 	/* display:flex; */
 	/* align-items:center; */
-    position: absolute;
+	position: absolute;
 	height:30%;
 	width:60%;
 	transform:translate(50%, 50%);
-	left:-15%;
-	top: 10%;
+	left:-12%;
+	top: 4%;
+	z-index:100;
 }
 
 .orb1{
 	/* display:flex; */
 	/* align-items:center; */
 	/* margin:0 auto; */
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
+	border: 4px solid white;
 	/* border-radius: 40vh; */
-	background-color:#fff;
+/* 	background-color:#fff; */
 }
 
-.orb2{
+/* .orb2{ */
 	/* display:flex; */
 	/* align-items:center; */
 	/* margin: auto; */
-	width: 290px;
-	height: 290px;
+/* 	width: 190px; */
+/* 	height: 190px; */
 	/* border-radius: 40vh; */
-	background-color:#1721a3;
-}
+/* 	background-color:#1721a3; */
+/* } */
 .orb3{
 	/* display:flex; */
 	/* align-items:center; */
 	/* margin: auto; */
-	width: 200px;
-	height: 200px;
+	width: 270px;
+	height: 270px;
+	border: 4px solid white;
 	/* border-radius: 40vh; */
-	background-color:#fff;
+/* 	background-color:#fff; */
 }
 
-.orb4{
+/* .orb4{ */
 	/* display:flex; */
 	/* align-items:center; */
 	/* margin: auto; */
-	width: 190px;
-	height: 190px;
+/* 	width: 140px; */
+/* 	height: 140px; */
 	/* border-radius: 40vh; */
-	background-color:#1721a3;
-}
+/* 	background-color:#1721a3; */
+/* } */
 .cat{
 	margin: auto;
-	width: 110px;
-	height: 110px;
+	width: 180px;
+	height: 180px;
 	background:url(images/GO.png) no-repeat center/contain;
 }
 
 .down1{
-    width:100%;
-	/*ÐŸÑ€Ð¾Ð¿Ð¸ÑÐ°Ñ‚ÑŒ ÐºÐ°Ðº ÑÐ²Ð¾Ð¹ÑÑ‚Ð²Ð¾ Ð´Ð»Ñ Ð¼Ð¾Ð±Ð¸Ð»ÑŒÐ½Ð¾Ð³Ð¾*/
+	position: fixed;
+	height: 100%;
+	width:100%;
+	/*ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âº ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â²ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â²ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾*/
 
 	background:url(images/obl4.png) no-repeat center;
-	background-position: 50% 70%;/*Ð´Ð»Ñ Ð´ÐµÑÐºÑ‚Ð¾Ð¿Ð°*/
+	/* 	background-origin: padding-box; */
+	/* background-clip: content-box; */
+	/* background-attachment: fixed; */
+	/*background-position: bottom;*/
+	background-position: left;
+	/* 	left:0%; */
+	/* 	background-position: 50% 70%;/*ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂµÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°*/
+	background-size:contain;
+	z-index: 5;
+	/* background-attachment: fixed; */
 }
 
 .top1 {
-    height: 100%;
-    width:100%;
-    align-self: flex-start;
-    /*top:-50%;*/
+	position: fixed;
+	height: 70%;
+	width: 100%;
+	/* 	right:0%; */
+	/*align-self: flex-start;*/
+	/*top:-50%;*/
 	/*right: -15%;*/
 	background: url(images/obl32.png) no-repeat center/contain;
-	/*background-position: 50vw -50vh;*/
-/* <<<<<<< Clouds */
-	/*background-position: 20vw -5vh;!*для мобильного*!*/
-	/*background-position: 20vw -50vh; !*для десктопа*!*/
+	/*background-position: top;*/
+	background-position: right;
+	/* 	background-position: 50vw -50vh; */
+	/* <<<<<<< Clouds */
+	/*background-position: 20vw -5vh;!*ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â´ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â»ÃƒÆ’Ã¢â‚¬ËœÃƒâ€šÃ‚Â ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¼ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â±ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¸ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â»ÃƒÆ’Ã¢â‚¬ËœÃƒâ€¦Ã¢â‚¬â„¢ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â½ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â³ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾*!*/
+	/*background-position: 20vw -50vh; !*ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â´ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â»ÃƒÆ’Ã¢â‚¬ËœÃƒâ€šÃ‚Â ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â´ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚ÂµÃƒÆ’Ã¢â‚¬ËœÃƒâ€šÃ‚ÂÃƒÆ’Ã‚ÂÃƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¿ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â°*!*/
+	z-index: 1;
 }
 
 @media only screen
-    /* and ( min-height:700px)  */
+	/* and ( min-height:700px)  */
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
-
-
+	.top1{
+		background-position: top;
+	}
+	.down1{
+		background-position: bottom;
+	}
+	.cat{
+		width:100px;
+		height:100px;
+	}
+	.orb3{
+		width: 130px;
+		height: 130px;
+	}
+	.orb1{
+		width: 190px;
+		height: 190px;
+	}
+	.orbits{
+		top:17%;
+	}
 }
 
-
-
-/* ======= */
-	/*background-position: 20vw -5vh;!*Ð´Ð»Ñ Ð¼Ð¾Ð±Ð¸Ð»ÑŒÐ½Ð¾Ð³Ð¾*!*/
-	/*background-position: 20vw -50vh; !*Ð´Ð»Ñ Ð´ÐµÑÐºÑ‚Ð¾Ð¿Ð°*!*/}
-
-
-/* >>>>>>> master */
