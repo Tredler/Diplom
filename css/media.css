@@ -4,10 +4,12 @@ and (min-device-width: 320px)
 and (max-device-width: 480px) {
   .top1{
     background-position: 5vw -5vh;
+    animation: move none;
   }
   .down1{
-    background-position: bottom;
-    /* animation: move none; */
+  	background-position: 5vw 59vh;
+/*     background-position: bottom; */
+    animation: move none;
   }
   .cat{
     width:100px;
@@ -25,7 +27,6 @@ and (max-device-width: 480px) {
     top:18%;
     left:-10%;
     transform:translate(0% 50%);
-/* margin: 0 auto; */
   }
   .planet1{
     width:40px;
@@ -42,11 +43,12 @@ and (max-device-width: 480px) {
 and (min-device-height: 320px)
 and (max-device-height: 480px) {
   .top1{
+  	animation: move none;
 /*     background-position: 5vw -5vh; */
   }
   .down1{
-    background-position: bottom;
-    /* animation: move none; */
+/*     background-position: bottom; */
+    animation: move none;
   }
   .cat{
     width:100px;
@@ -61,6 +63,14 @@ and (max-device-height: 480px) {
     height: 190px;
   }
   .orbits{
-    top:15%;
+    top:9%;
   }
+  .planet1{
+    width:40px;
+    heigth:40px;
+  }
+  @keyframes movePlanet1{
+	from {  transform: rotate(0deg) translateX(96px) rotate(0deg); }
+	to {  transform: rotate(360deg) translateX(96px) rotate(-360deg); }
+  } 
 }
