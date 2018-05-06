@@ -45,8 +45,13 @@ section{
 }
 
 .orbits{
+/* <<<<<<< Clouds */
+    /*display:flex;*/
+    /*align-items:center;*/
+/* ======= */
     /* display:flex; */
     /* align-items:center; */
+/* >>>>>>> master */
     position: absolute;
     height:30%;
     width:60%;
