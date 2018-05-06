@@ -1,0 +1,66 @@
+@media only screen
+  /* and ( min-height:700px)  */
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+  .top1{
+    background-position: 5vw -5vh;
+  }
+  .down1{
+    background-position: bottom;
+    /* animation: move none; */
+  }
+  .cat{
+    width:100px;
+    height:100px;
+  }
+  .orb2{
+    width: 130px;
+    height: 130px;
+  }
+  .orb1{
+    width: 190px;
+    height: 190px;
+  }
+  .orbits{
+    top:18%;
+    left:-10%;
+    transform:translate(0% 50%);
+/* margin: 0 auto; */
+  }
+  .planet1{
+    width:40px;
+    heigth:40px;
+  }
+  @keyframes movePlanet1{
+	from {  transform: rotate(0deg) translateX(96px) rotate(0deg); }
+	to {  transform: rotate(360deg) translateX(96px) rotate(-360deg); }
+  } 
+}
+
+@media only screen
+  /* and ( min-height:700px)  */
+and (min-device-height: 320px)
+and (max-device-height: 480px) {
+  .top1{
+/*     background-position: 5vw -5vh; */
+  }
+  .down1{
+    background-position: bottom;
+    /* animation: move none; */
+  }
+  .cat{
+    width:100px;
+    height:100px;
+  }
+  .orb2{
+    width: 130px;
+    height: 130px;
+  }
+  .orb1{
+    width: 190px;
+    height: 190px;
+  }
+  .orbits{
+    top:15%;
+  }
+}
