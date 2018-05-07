@@ -1,4 +1,4 @@
-@media only screen
+@media only screen   /* вертикалньое положение*/
   /* and ( min-height:700px)  */
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
@@ -32,13 +32,37 @@ and (max-device-width: 480px) {
     width:40px;
     heigth:40px;
   }
+  .planet2{
+    width:35px;
+    heigth:35px;
+  }
+  .planet3{
+    width:33px;
+    heigth:33px;
+    left:33%;
+    top:22%;
+  }
+
+
   @keyframes movePlanet1{
 	from {  transform: rotate(0deg) translateX(96px) rotate(0deg); }
 	to {  transform: rotate(360deg) translateX(96px) rotate(-360deg); }
-  } 
+ 	}
+  
+  @keyframes movePlanet2{
+	from {  transform: rotate(0deg) translateX(65px) rotate(0deg); }
+	to {  transform: rotate(360deg) translateX(65px) rotate(-360deg); }
+	}
+
+	@keyframes movePlanet3{
+	from {  transform: rotate(180deg) translateX(65px) rotate(0deg); }
+	to {  transform: rotate(540deg) translateX(65px) rotate(-360deg); }
+	}
+
+   
 }
 
-@media only screen
+@media only screen		/* горизонтальное положение*/
   /* and ( min-height:700px)  */
 and (min-device-height: 320px)
 and (max-device-height: 480px) {
@@ -69,8 +93,29 @@ and (max-device-height: 480px) {
     width:40px;
     heigth:40px;
   }
+  .planet2{
+    width:35px;
+    heigth:35px;
+  }
+  .planet3{
+    width:33px;
+    heigth:33px;
+    left:35%;
+    top:23%;
+  }
+
   @keyframes movePlanet1{
 	from {  transform: rotate(0deg) translateX(96px) rotate(0deg); }
 	to {  transform: rotate(360deg) translateX(96px) rotate(-360deg); }
-  } 
+  }
+
+  @keyframes movePlanet2{
+	from {  transform: rotate(0deg) translateX(65px) rotate(0deg); }
+	to {  transform: rotate(360deg) translateX(65px) rotate(-360deg); }
+	}
+
+	@keyframes movePlanet3{
+	from {  transform: rotate(180deg) translateX(65px) rotate(0deg); }
+	to {  transform: rotate(540deg) translateX(65px) rotate(-360deg); }
+	} 
 }

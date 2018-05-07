@@ -9,7 +9,17 @@
 	
 	100% {transform: rotate(0deg); }
 }
+
 @keyframes movePlanet1{
 	from {  transform: rotate(0deg) translateX(200px) rotate(0deg); }
 	to {  transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@keyframes movePlanet2{
+	from {  transform: rotate(0deg) translateX(130px) rotate(0deg); }
+	to {  transform: rotate(360deg) translateX(130px) rotate(-360deg); }
+}
+@keyframes movePlanet3{
+	from {  transform: rotate(180deg) translateX(135px) rotate(0deg); }
+	to {  transform: rotate(540deg) translateX(135px) rotate(-360deg); }
 }

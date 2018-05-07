@@ -52,7 +52,7 @@ section{
 	transform:translate(50%, 50%);
 	left:-12%;
 	top: 4%;
-	z-index:100;
+	z-index:10;
 }
 
 .orb1{
@@ -80,6 +80,7 @@ section{
 	width: 180px;
 	height: 180px;
 	background:url(images/GO.png) no-repeat center/contain;
+	z-index:100;
 }
 
 .planet1{
@@ -89,6 +90,25 @@ section{
 	left:40%;
 	animation: movePlanet1 10s infinite linear;
 	background:url(images/pl1.png) no-repeat center/contain;
+}
+
+.planet2{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	left:35%;
+	animation: movePlanet2 7s infinite linear;
+	background:url(images/pl2.png) no-repeat center/contain;
+}
+
+.planet3{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top:40%;
+	left:35%;
+	animation: movePlanet3 7s infinite linear;
+	background:url(images/pl3.png) no-repeat center/contain;
 }
 
 .down1{
