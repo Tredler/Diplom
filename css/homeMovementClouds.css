@@ -1,7 +1,6 @@
 body{
 	background-color:#1721a3;
 	text-align:center;
-
 }
 *{
 	margin: 0;
@@ -76,10 +75,12 @@ section{
 }
 
 .cat{
-	margin: auto;
-	width: 180px;
-	height: 180px;
-	background:url(images/GO.png) no-repeat center/contain;
+	position:absolute;
+	margin:0 auto;
+	width: 170px;
+	height: 170px;
+	left:20%;
+	background:url(images/sun.png) no-repeat center/contain;
 	z-index:100;
 }
 
@@ -113,12 +114,26 @@ section{
 
 .down1{
 	position: fixed;
-	height: 110%;
-	width:110%;
-	left:-5%;
+	height: 120%;
+	width:120%;
+	left:-3%;
 	bottom:-13%;
 
-	background:url(images/obl4.png) no-repeat center;
+	background:url(images/cloudBotDown.png) no-repeat center;
+	background-position: -30px 22px;
+	animation: moveBot 5s infinite ease-in-out alternate;
+	background-size:contain;
+	z-index: 5;
+}
+
+.down2{
+	position: fixed;
+	height: 90%;
+	width:90%;
+	left:-4%;
+	bottom:-13%;
+
+	background:url(images/cloudBotUp.png) no-repeat center;
 	background-position: -30px 22px;
 	animation: moveBot 5s infinite ease-in-out alternate;
 	background-size:contain;
@@ -131,7 +146,19 @@ section{
 	top:-10%;
 	height: 110%;
 	width: 110%;
-	background: url(images/obl32.png) no-repeat center/contain;
+	background: url(images/cloudTopDown.png) no-repeat center/contain;
+	background-position: 55vw -75px;
+	animation: moveTop 5s infinite ease-in-out alternate;
+	z-index: 1;
+}
+
+.top2 {
+	position: fixed;
+	right:-7%;
+	top:-7%;
+	height: 90%;
+	width: 90%;
+	background: url(images/cloudTopUp.png) no-repeat center/contain;
 	background-position: 55vw -75px;
 	animation: moveTop 5s infinite ease-in-out alternate;
 	z-index: 1;

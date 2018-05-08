@@ -1,4 +1,4 @@
-@media only screen   /* вертикалньое положение*/
+@media only screen   /* Ð²ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»Ð½ÑŒÐ¾Ðµ Ð¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ*/
   /* and ( min-height:700px)  */
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
@@ -6,14 +6,25 @@ and (max-device-width: 480px) {
     background-position: 5vw -5vh;
     animation: move none;
   }
+  .top2{
+    background-position: 30vw 5vh;
+    animation: move none;
+  }
   .down1{
-  	background-position: 5vw 59vh;
+  	background-position: 0vw 59vh;
+/*     background-position: bottom; */
+    animation: move none;
+  }
+   .down2{
+  	background-position: -3vw 48vh;
 /*     background-position: bottom; */
     animation: move none;
   }
   .cat{
     width:100px;
     height:100px;
+    left:17px;
+    top:15px;
   }
   .orb2{
     width: 130px;
@@ -62,14 +73,20 @@ and (max-device-width: 480px) {
    
 }
 
-@media only screen		/* горизонтальное положение*/
+@media only screen		/* Ð³Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ*/
   /* and ( min-height:700px)  */
 and (min-device-height: 320px)
 and (max-device-height: 480px) {
   .top1{
   	animation: move none;
-/*     background-position: 5vw -5vh; */
+    background-position: 55vw -10vh;
   }
+
+  .top2{
+  	animation: move none;
+    background-position: 55vw -10vh;
+  }
+
   .down1{
 /*     background-position: bottom; */
     animation: move none;
@@ -77,6 +94,8 @@ and (max-device-height: 480px) {
   .cat{
     width:100px;
     height:100px;
+    left:17px;
+    top:15px;
   }
   .orb2{
     width: 130px;
@@ -119,3 +138,4 @@ and (max-device-height: 480px) {
 	to {  transform: rotate(540deg) translateX(65px) rotate(-360deg); }
 	} 
 }
+

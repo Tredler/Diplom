@@ -10,6 +10,12 @@
 	100% {transform: rotate(0deg); }
 }
 
+@keyframes CatOrbit{
+	0% { transform: rotate(0deg); }
+	
+	100% {transform: rotate(360deg); }
+}
+
 @keyframes movePlanet1{
 	from {  transform: rotate(0deg) translateX(200px) rotate(0deg); }
 	to {  transform: rotate(360deg) translateX(200px) rotate(-360deg); }
