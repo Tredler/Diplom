@@ -1,5 +1,4 @@
-@media only screen   /* Ð²ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»Ð½ÑŒÐ¾Ðµ Ð¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ*/
-  /* and ( min-height:700px)  */
+@media only screen 
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
   .top1{

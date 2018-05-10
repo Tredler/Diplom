@@ -30,7 +30,7 @@
 	left:-0.4%;
 	/* animation:rotatePages 1.5s ease-in-out forwards; */
 	transform: rotate(90deg);
-    transform-origin: 10% 10%;
+    transform-origin: 7% 9%;
 	background:url(images/slaud.svg) no-repeat center/contain; 
 }
 .button{
@@ -39,7 +39,7 @@
 	width:7%;
 	top:20vh;
 	margin:auto;
-	left:4%;
+	left:3.5%;
 	cursor:pointer;
 	background:url(images/knopka2.png) no-repeat center/contain; 
 }
@@ -47,4 +47,33 @@
 @keyframes rotatePages{
 	from{transform:rotate(90deg);}
 	to{transform:rotate(0deg);}
+}
+
+
+@media only screen
+and (max-device-width: 420px){
+	.wikiBoard{
+	position:relative;
+	height:100%;
+	width:100%;
+	margin: auto;
+	/* transform:translate(50%); */
+	/* left:-15%; */
+	/* top:10vh; */
+	background:url(images/androidWiki.svg) no-repeat center/contain;
+	}
+}
+
+@media only screen
+and (max-device-heigth: 420px){
+	.wikiBoard{
+	position:relative;
+	height:100%;
+	width:100%;
+	margin: auto;
+	/* transform:translate(50%); */
+	/* left:-15%; */
+	/* top:10vh; */
+	background:url(images/androidWiki.svg) no-repeat center/contain;
+	}
 }
