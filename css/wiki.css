@@ -11,6 +11,8 @@
 	height:100%;
  }
  
+ 
+ 
 .wikiBoard{
 	position:relative;
 	height:100vh;
@@ -24,14 +26,13 @@
 #wikiPage{
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	/* align-items: center; */
+	justify-content: flex-start;
+	align-items: flex-start;
 	position:absolute;
 	height:70%;
 	width:100%;
 	top:17%;
-	/* left:-0.4%; */
-	/* animation:rotatePages 1.5s ease-in-out forwards; */
+	animation:rotatePages 1.5s ease-in-out forwards;
 	/* transform: rotate(90deg); */
     transform-origin: 7% 9%;
 	background:url(images/slaud.svg) no-repeat center/contain; 
@@ -48,8 +49,6 @@
 }
 
 img{
-	display: block;
-	padding: 8px;
 	height:22%;
 	width:16%;
 	/* top:2%; */
@@ -74,9 +73,9 @@ and (max-device-width: 420px){
 	}
 	.button{
 		position:fixed;
-		height:12%;
-		width:12%;
-		top:6vh;
+		height:13%;
+		width:13%;
+		top:13vh;
 		/* margin:auto; */
 		left:7%;
 	}
