@@ -22,14 +22,17 @@
 	background:url(images/DeskWiki.svg) no-repeat center/contain;
 }
 #wikiPage{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* align-items: center; */
 	position:absolute;
 	height:70%;
 	width:100%;
 	top:17%;
-	margin:auto;
-	left:-0.4%;
+	/* left:-0.4%; */
 	/* animation:rotatePages 1.5s ease-in-out forwards; */
-	transform: rotate(90deg);
+	/* transform: rotate(90deg); */
     transform-origin: 7% 9%;
 	background:url(images/slaud.svg) no-repeat center/contain; 
 }
@@ -44,6 +47,16 @@
 	background:url(images/knopka2.png) no-repeat center/contain; 
 }
 
+img{
+	display: block;
+	padding: 8px;
+	height:22%;
+	width:16%;
+	/* top:2%; */
+	margin-top:15%;
+	/* margin-left: 15px; */
+}
+
 @keyframes rotatePages{
 	from{transform:rotate(90deg);}
 	to{transform:rotate(0deg);}
@@ -53,27 +66,18 @@
 @media only screen
 and (max-device-width: 420px){
 	.wikiBoard{
-	position:relative;
-	height:100%;
-	width:100%;
-	margin: auto;
-	/* transform:translate(50%); */
-	/* left:-15%; */
-	/* top:10vh; */
-	background:url(images/androidWiki.svg) no-repeat center/contain;
+		position:relative;
+		height:100%;
+		width:100%;
+		margin: auto;
+		background:url(images/androidWiki.svg) no-repeat center/contain;
 	}
-}
-
-@media only screen
-and (max-device-heigth: 420px){
-	.wikiBoard{
-	position:relative;
-	height:100%;
-	width:100%;
-	margin: auto;
-	/* transform:translate(50%); */
-	/* left:-15%; */
-	/* top:10vh; */
-	background:url(images/androidWiki.svg) no-repeat center/contain;
+	.button{
+		position:fixed;
+		height:12%;
+		width:12%;
+		top:6vh;
+		/* margin:auto; */
+		left:7%;
 	}
 }
