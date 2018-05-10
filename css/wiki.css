@@ -1,3 +1,50 @@
-#header{
-        width:
+*{
+	margin: 0;
+	padding: 0;
+}
+ main{
+	 width:100vw;
+	 height:100vh;
+ }
+ 
+ section{
+	height:100%;
+ }
+ 
+.wikiBoard{
+	position:relative;
+	height:100vh;
+	width:100vh;
+	/* top:10vh; */
+	margin:auto;
+	/* transform:translate(50%); */
+	/* left:-10%; */
+	background:url(images/DeskWiki.svg) no-repeat center/contain;
+}
+#wikiPage{
+	position:absolute;
+	height:70%;
+	width:100%;
+	top:17%;
+	margin:auto;
+	left:-0.4%;
+	/* animation:rotatePages 1.5s ease-in-out forwards; */
+	transform: rotate(90deg);
+    transform-origin: 10% 10%;
+	background:url(images/slaud.svg) no-repeat center/contain; 
+}
+.button{
+	position:absolute;
+	height:7%;
+	width:7%;
+	top:20vh;
+	margin:auto;
+	left:4%;
+	cursor:pointer;
+	background:url(images/knopka2.png) no-repeat center/contain; 
+}
+
+@keyframes rotatePages{
+	from{transform:rotate(90deg);}
+	to{transform:rotate(0deg);}
 }
