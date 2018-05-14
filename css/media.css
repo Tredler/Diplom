@@ -2,20 +2,31 @@
 and (min-device-width: 320px)
 and (max-device-width: 480px) {
   .top1{
-    background-position: 5vw -5vh;
+    background-position: 150vw 5vh;
     animation: move none;
+/* 	right:0%; */
+
+/* 	top:-10%; */
+	height: 90%;
+	width: 70%;
   }
   .top2{
-    background-position: 30vw 5vh;
+    background-position: 20vw 5vh;
     animation: move none;
+   left:20%;
+/* 	top:-7%; */
+	height: 60%;
+	width: 60%;
   }
   .down1{
-  	background-position: 0vw 59vh;
-/*     background-position: bottom; */
+  	background-position: -10vw -5vh;
     animation: move none;
+    height: 75%;
+	width:70%;
+	
   }
    .down2{
-  	background-position: -3vw 48vh;
+  	background-position: 0vw 38vh;
 /*     background-position: bottom; */
     animation: move none;
   }
@@ -72,24 +83,34 @@ and (max-device-width: 480px) {
    
 }
 
-@media only screen		/* Ð³Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ*/
+@media only screen		/* ÃƒÂÃ‚Â³ÃƒÂÃ‚Â¾Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â¸ÃƒÂÃ‚Â·ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â½Ãƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â°ÃƒÂÃ‚Â»Ãƒâ€˜Ã…â€™ÃƒÂÃ‚Â½ÃƒÂÃ‚Â¾ÃƒÂÃ‚Âµ ÃƒÂÃ‚Â¿ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â»ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â¶ÃƒÂÃ‚ÂµÃƒÂÃ‚Â½ÃƒÂÃ‚Â¸ÃƒÂÃ‚Âµ*/
   /* and ( min-height:700px)  */
 and (min-device-height: 320px)
 and (max-device-height: 480px) {
   .top1{
   	animation: move none;
-    background-position: 55vw -10vh;
+    background-position: 75vw -10vh;
   }
 
   .top2{
   	animation: move none;
-    background-position: 55vw -10vh;
+    background-position: 65vw -10vh;
   }
 
   .down1{
-/*     background-position: bottom; */
+  	background-position: 1vw -1vh;
     animation: move none;
+    height: 100%;
+	width:100%;
+	
   }
+   .down2{
+  	background-position: 0vw 15vh;
+    animation: move none;
+    height: 100%;
+	width:100%;
+  }
+
   .cat{
     width:100px;
     height:100px;
@@ -105,7 +126,7 @@ and (max-device-height: 480px) {
     height: 190px;
   }
   .orbits{
-    top:9%;
+    top:21%;
   }
   .planet1{
     width:40px;
