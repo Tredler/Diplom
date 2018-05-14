@@ -1,0 +1,66 @@
+@media only screen
+and (max-device-width: 420px){
+	.wikiBoard{
+		position:relative;
+		height:100%;
+		width:100%;
+		margin: auto;
+		background:url(images/androidWiki.svg) no-repeat center/contain;
+	}
+	#wikiPage{
+		position:absolute;
+		align-items:flex-start;
+		align-content:flex-start;
+		height:80%;
+		width:100%;
+		margin-top:-5%;
+		background:url(images/and_green.svg) no-repeat center/contain;
+	}
+
+	#WikiMap{
+		height:100%;
+		width:90%;
+		margin-top:15%;
+		margin-left:5%;
+	}
+
+	#infoPage{
+		height:85%;
+		width:99%;
+		top:5%;
+		left:0%;
+		font-size: 25px;
+	}
+
+	#closebtn{
+		height:13%;
+		width:12%;
+		left:0%;
+		top:-2.5%;
+	}
+		
+	#btn{
+		position:fixed;
+		height:26%;
+		width:16%;
+		top:7%;
+		/* margin:auto; */
+		left:5%;
+	}
+	#icons{
+		height:60%;
+		width:90%;
+/* 		padding-top:20%; */
+		margin-left:10%;
+	}
+	img{
+		cursor:pointer;
+		height:30%;
+		width:30%;
+		padding:-10px;
+		margin-top:30px;
+		user-select:none;
+	}
+
+}
+

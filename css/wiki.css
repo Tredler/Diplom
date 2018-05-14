@@ -3,17 +3,28 @@
 	padding: 0;
 	
 }
- main{
+main{
 	 width:100vw;
 	 height:100vh;
 	 overflow:hidden;
 	 z-index:10;
- }
+}
  
- section{
+section{
 	height:100%;
- }
- 
+}
+  
+h4{
+	text-align:center; 
+	font-size:40px; 
+}
+
+p{
+	text-indent: 1.5em;
+	margin-top:5%;
+	text-align:justify;
+}
+  
 .wikiBoard{
 	position:relative;
 	height:100vh;
@@ -42,40 +53,39 @@
 }
 
 #WikiMap{
-	display:flex;
-	/* flex-wrap: wrap; */
-/* 	justify-content: space-around; */
-	/* align-items:flex-end; */
-	/* align-content:flex-start; */
 	position:absolute;
-	height:70%;
-	width:100%;
-	top:17%;
-	/* transform: rotate(90deg); */
-    transform-origin: 7% 9%;
-	background:url(images/deskred.svg) no-repeat center/contain; 
+	height:60%;
+	width:60%;
+	margin-top:27.5%;
+	margin-left:20%;
+	/* transform:rotate(30deg); */
+	background:url(images/map.png) no-repeat center/contain; 
 }
 
 #infoPage{
-	position:absolute;
+	position:relative;
 	height:80%;
 	width:110%;
 	top:2%;
 	left:-5%;
 	border:2px solid black;
-	text-align:center;
-	font-size: 40px;
+	text-align:justify;
+	font-size: 30px;
 	/* animation:SummonPages 1s ease-in-out forwards; */
 	transform:scale(0);
 	background:#fff;
 	z-index:5;
+}
 
+#closebtn{
+	position:absolute;
+	height:10%;
+	width:10%;
+	left:-1.5%;
+	cursor:pointer;
+	background:url(images/knopka2.png) no-repeat center/contain; 
 }
-.bg{
-	width:100%;
-	height:100%;
-	background-color:#000;
-}
+
 
 #btn{
 	position:absolute;
@@ -85,7 +95,7 @@
 	margin:auto;
 	left:2.5%;
 	cursor:pointer;
-	background:url(images/ava_puct.png) no-repeat center/contain; 
+	background:url(images/button.png) no-repeat center/contain; 
 }
 
 #icons{
@@ -95,16 +105,16 @@
 
 img{
 	cursor:pointer;
-	height:23%;
-	width:15%;
-	padding:15px;
-	margin-left:24px;
+	height:30%;
+	width:18%;
+	padding:12px;
+	margin-left:15px;
+	margin-top:30px;
 	user-select:none;
 	/* pointer-events: none; */
-	/* border-radius: 160px; */
 }
 
-img:hover, #btn:hover{
+img:hover, #btn:hover, #closebtn:hover{
 	transform:scale(1.1);
 }
 
@@ -130,24 +140,20 @@ img:hover, #btn:hover{
     transform: translate(0, 5vh);
   }
 }
-
-
-
-@media only screen
-and (max-device-width: 420px){
-	.wikiBoard{
-		position:relative;
-		height:100%;
-		width:100%;
-		margin: auto;
-		background:url(images/androidWiki.svg) no-repeat center/contain;
+@keyframes SummonPagesRev{
+	0% {
+    transform: translate(0, 5vh);
+    
 	}
-	.button{
-		position:fixed;
-		height:13%;
-		width:13%;
-		top:13vh;
-		/* margin:auto; */
-		left:7%;
+  60% {
+    transform: translate(0, 0vh);
+    opacity: 0;
 	}
+  100% {
+    transform: translate(0, -60vh);
+	opacity: 0;
+  }
 }
+
+
+
