@@ -14,32 +14,30 @@ section{
 	height:100%;
 }
   
-h4{
-	text-align:center; 
-	font-size:40px; 
-}
-
-p{
-	text-indent: 1.5em;
-	margin-top:5%;
-	text-align:justify;
-}
-  
 .wikiBoard{
 	position:relative;
 	height:100vh;
 	width:100vh;
-	/* top:10vh; */
 	margin:auto;
 	/* transform:translate(50%); */
 	/* left:-10%; */
-/* 	overflow:hidden; */
 	background:url(images/DeskWiki.svg) no-repeat center/contain;
 }
+
+#btn{
+	position:absolute;
+	height:10%;
+	width:10%;
+	top:17.8vh;
+	margin:auto;
+	left:2.5%;
+	cursor:pointer;
+	background:url(images/button2.png) no-repeat center/contain; 
+}
+
 #wikiPage{
 	display:flex;
 	flex-wrap: wrap;
-/* 	justify-content: space-around; */
 	align-items:flex-end;
 	align-content:flex-start;
 	position:absolute;
@@ -54,53 +52,92 @@ p{
 
 #WikiMap{
 	position:absolute;
-	height:60%;
-	width:60%;
-	margin-top:27.5%;
+	height:55%;
+	width:55%;
+	margin-top:30%;
 	margin-left:20%;
 	/* transform:rotate(30deg); */
 	background:url(images/map.png) no-repeat center/contain; 
 }
 
+.pin{
+	position:absolute;
+	width:5%;
+	height:10%;
+	cursor:pointer;
+	background:url(images/pin.png) no-repeat center/contain;
+}
+#pin1{
+	top:37%;
+	left:37%;
+}
+#pin2{
+	top:57%;
+	left:57%;
+}
+#pin3{
+	top:40%;
+	left:80%;
+}
+#pin4{
+	top:60%;
+	left:70%;
+}
+
 #infoPage{
 	position:relative;
 	height:80%;
-	width:110%;
-	top:2%;
-	left:-5%;
-	border:2px solid black;
+	width:120%;
+	top:10%;
+	left:-10%;
+	background:url(images/infblock.png) no-repeat center/contain;
+	z-index:5;
+}
+
+.WikiText{
+	position:absolute;
+	height:80%;
+	width:100%;
+	top:5%;
+	/* background-color:#0000ff47; */
+}
+
+.Title{
+	font-size:40px;
+	text-align:center;
+}
+
+.MainText{
+	margin-top:10px;
+	text-indent: 1.5em;
 	text-align:justify;
 	font-size: 30px;
-	/* animation:SummonPages 1s ease-in-out forwards; */
-	transform:scale(0);
-	background:#fff;
-	z-index:5;
+	padding:30px;
+}
+
+.TextImage{
+	position:absolute;
+	height:35%;
+	width:30%;
+	top:50%;
+	left:68%;
+	background:url(images/1.png) no-repeat center/contain;
 }
 
 #closebtn{
 	position:absolute;
 	height:10%;
 	width:10%;
-	left:-1.5%;
+	left:1.5%;
+	top:6%;
 	cursor:pointer;
 	background:url(images/knopka2.png) no-repeat center/contain; 
-}
-
-
-#btn{
-	position:absolute;
-	height:9.5%;
-	width:9.5%;
-	top:18.2vh;
-	margin:auto;
-	left:2.5%;
-	cursor:pointer;
-	background:url(images/button.png) no-repeat center/contain; 
 }
 
 #icons{
 	height:80%;
 	width:100%;
+	margin-top:17%;
 }
 
 img{
@@ -113,9 +150,13 @@ img{
 	user-select:none;
 	/* pointer-events: none; */
 }
+#btn:hover{
+	transition:1s;
+	transform: rotate(-360deg);
+}
 
-img:hover, #btn:hover, #closebtn:hover{
-	transform:scale(1.1);
+img:hover, #closebtn:hover, .pin:hover{
+	transform:scale(1.2);
 }
 
 @keyframes rotatePages{
@@ -154,6 +195,3 @@ img:hover, #btn:hover, #closebtn:hover{
 	opacity: 0;
   }
 }
-
-
-

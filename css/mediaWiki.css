@@ -9,8 +9,13 @@ and (max-device-width: 420px){
 	}
 	#wikiPage{
 		position:absolute;
-		align-items:flex-start;
-		align-content:flex-start;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-align:start;
+		    -ms-flex-align:start;
+		        align-items:flex-start;
+		-ms-flex-line-pack:start;
+		    align-content:flex-start;
 		height:80%;
 		width:100%;
 		margin-top:-5%;
@@ -29,38 +34,64 @@ and (max-device-width: 420px){
 		width:99%;
 		top:5%;
 		left:0%;
-		font-size: 25px;
+		font-size: 28px;
 	}
 
 	#closebtn{
 		height:13%;
 		width:12%;
 		left:0%;
-		top:-2.5%;
+		top:-2.8%;
 	}
 		
 	#btn{
 		position:fixed;
-		height:26%;
-		width:16%;
-		top:7%;
+		height:24%;
+		width:14%;
+		top:8%;
 		/* margin:auto; */
-		left:5%;
+		left:6%;
 	}
 	#icons{
-		height:60%;
-		width:90%;
-/* 		padding-top:20%; */
-		margin-left:10%;
+		height:75%;
+		width:100%;
+/* 		margin-left:%; */
+		margin-top:28%;
 	}
 	img{
 		cursor:pointer;
-		height:30%;
-		width:30%;
-		padding:-10px;
-		margin-top:30px;
-		user-select:none;
+		height:22%;
+		width:22%;
+		padding:0px;
+		margin-top:8px;
+		margin-left:18%;
+		-webkit-user-select:none;
+		   -moz-user-select:none;
+		    -ms-user-select:none;
+		        user-select:none;
 	}
 
 }
 
+@media only screen
+and (max-device-height: 360px){
+#wikiPage{
+	align-items:flex-start;
+}
+
+
+#icons{
+		height:85%;
+		width:100%;
+		margin-top:10%;
+		margin-left:5%;
+	}
+	img{
+		cursor:pointer;
+		height:30%;
+		width:20%;
+		padding:0px;
+/* 		margin-top:8%; */
+		margin-left:2%;
+		user-select:none;
+	}

@@ -1,5 +1,6 @@
 var page=document.getElementById("wikiPage");
 var counter=0;
+
 function myFunction(){
 	
 		if(counter==0){
@@ -14,7 +15,6 @@ function myFunction(){
 document.addEventListener("click", function(e){
         e.preventDefault();
         if(e.target.hasAttribute("name")){
-			// setTimeout(document.body.style.background="#000000c9", 3000);
 			document.getElementById("infoPage").style.display="block";
 			document.getElementById("infoPage").style.animation = "SummonPages .5s ease-in-out forwards";
         }

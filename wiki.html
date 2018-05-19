@@ -4,23 +4,30 @@
     <meta charset="utf-8">
     <link href="css/wiki.css" rel="stylesheet">
     <link href="css/mediaWiki.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.2">
 </head>
 <body>
 	<main>
 		<section>
 			<div class="wikiBoard">
-			<div id="WikiMap"></div>
+				<div id="WikiMap">
+					<div class="pinbg">
+						<div class="pin" id="pin1" name="pin_icon"></div>
+						<div class="pin" id="pin2" name="pin_icon"></div>
+						<div class="pin" id="pin3" name="pin_icon"></div>
+						<div class="pin" id="pin4" name="pin_icon"></div>
+					</div>
+				</div>
+			
 				<div id="infoPage">
-					<div id="closebtn" onclick="HidePage()"></div>
-						<h4>Заголовок<h4>
-						<p>	Text text text text text text text text 
-						text text text text text text text text text 
-						text text text text text text text text text 
-						text text text text text text text text text 
-						text text text text text text text text text 
-						</p>
-					
+					<div class="WikiText">
+						<div class="Title">Заголовок</div>
+						<div class="MainText">Текст текст текст текст текст
+						 текст текст текст текст текст
+						  текст текст текст текст текст</div>
+					</div>
+					<div class="TextImage"></div>
+					<div id="closebtn" onclick="HidePage()"></div>					
 				</div>
 				
 					<div id="wikiPage">

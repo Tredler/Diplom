@@ -28,35 +28,28 @@ main{
 
 section{
 	height: 100%;
-/* 		width: 100%; */
-	/*flex: 1;*/
-	/*display: flex;*/
-	/*flex-flow: c;*/
+
 }
 
 .center{
 	display:flex;
 	align-items:center;
-	margin: auto;
+	margin:0 auto;
 	border-radius: 40vh;
 }
-
 .orbits{
-	/* display:flex; */
-	/* align-items:center; */
 	position: absolute;
 	height:30%;
 	width:60%;
-	transform:translate(50%, 50%);
+	-webkit-transform:translate(50%, 50%);
+	    -ms-transform:translate(50%, 50%);
+	        transform:translate(50%, 50%);
 	left:-12%;
-	top: 4%;
+	top: 20%;
 	z-index:10;
 }
 
 .orb1{
-	/* display:flex; */
-	/* align-items:center; */
-	/* margin:0 auto; */
 	width: 400px;
 	height: 400px;
 	border: 4px solid white;
@@ -64,21 +57,20 @@ section{
 }
 
 .orb2{
-	/* display:flex; */
-	/* align-items:center; */
-	/* margin: auto; */
 	width: 270px;
 	height: 270px;
 	border: 4px solid white;
 	position: relative;
 }
 
-.cat{
+#cat{
 	position:absolute;
 	margin:0 auto;
 	width: 170px;
-	height: 170px;
+	height: 160px;
 	left:20%;
+	top:21%;
+	cursor:pointer;
 	background:url(images/sun.png) no-repeat center/contain;
 	z-index:100;
 }
@@ -88,8 +80,10 @@ section{
 	width: 80px;
 	height: 80px;
 	left:40%;
-	animation: movePlanet1 10s infinite linear;
-	background:url(images/pl1.png) no-repeat center/contain;
+	top:40%;
+	cursor:pointer;
+	animation: movePlanet1 20s infinite linear;
+	background:url(images/infoplanet.png) no-repeat center/contain;
 }
 
 .planet2{
@@ -97,7 +91,9 @@ section{
 	width: 75px;
 	height: 75px;
 	left:35%;
-	animation: movePlanet2 7s infinite linear;
+	top:40%;
+	cursor:pointer;
+	animation: movePlanet2 12s infinite linear;
 	background:url(images/pl2.png) no-repeat center/contain;
 }
 
@@ -107,20 +103,26 @@ section{
 	height: 70px;
 	top:40%;
 	left:35%;
-	animation: movePlanet3 7s infinite linear;
-	background:url(images/pl3.png) no-repeat center/contain;
+	cursor:pointer;
+	animation: movePlanet3 12s infinite linear;
+	background:url(images/wikiplanet2.png) no-repeat center/contain;
+}
+
+#cat:hover{
+	transform:scale(1.07);
 }
 
 .down1{
 	position: fixed;
 	height: 120%;
 	width:120%;
-	min-width:1100px;
 	left:-3%;
 	bottom:-13%;
+	min-width:1100px;
 	background:url(images/cloudBotDown.png) no-repeat center;
 	background-position: -30px 22px;
 	animation: moveBot 5s infinite ease-in-out alternate;
+	animation-delay:1s;
 	background-size:contain;
 	z-index: 5;
 }
@@ -134,7 +136,7 @@ section{
 	bottom:-19%;
 	background:url(images/cloudBotUp.png) no-repeat center;
 	background-position: -30px 22px;
-	animation: moveBot 5s infinite ease-in-out alternate;
+	animation: moveBot 4s infinite ease-in-out alternate;
 	background-size:contain;
 	z-index: 5;
 }
@@ -154,14 +156,14 @@ section{
 
 .top2 {
 	position: fixed;
-	right:-7%;
-	top:-7%;
-	height: 90%;
-	width: 90%;
+	right:-2%;
+	top:-2%;
+	height: 80%;
+	width: 80%;
 	min-width:700px;
 	background: url(images/cloudTopUp.png) no-repeat center/contain;
 	background-position: 55vw -75px;
-	animation: moveTop 5s infinite ease-in-out alternate;
+	animation: moveTop 4s infinite ease-in-out alternate;
 	z-index: 1;
 }
 
