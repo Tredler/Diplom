@@ -84,6 +84,7 @@ section{
 	cursor:pointer;
 	animation: movePlanet1 20s infinite linear;
 	background:url(images/infoplanet.png) no-repeat center/contain;
+
 }
 
 .planet2{
