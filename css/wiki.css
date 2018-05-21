@@ -69,10 +69,17 @@ section{
 }
 
 #WikiMap{
+<<<<<<< HEAD
 	position:relative;
 	height:55%;
 	width:55%;
 	top:30%;
+=======
+	position:absolute;
+	height:55%;
+	width:55%;
+	margin-top:30%;
+>>>>>>> eb79f7431a62e47a72a792311ecc1a8951c63868
 	margin-left:20%;
 	/* transform:rotate(30deg); */
 	background:url(images/map.png) no-repeat center/contain; 
@@ -116,6 +123,19 @@ section{
 .WikiText{
 	position:absolute;
 	height:80%;
+<<<<<<< HEAD
+=======
+	width:120%;
+	top:10%;
+	left:-10%;
+	background:url(images/infblock.png) no-repeat center/contain;
+	z-index:5;
+}
+
+.WikiText{
+	position:absolute;
+	height:80%;
+>>>>>>> eb79f7431a62e47a72a792311ecc1a8951c63868
 	width:100%;
 	top:5%;
 	/* background-color:#0000ff47; */
@@ -156,7 +176,11 @@ section{
 #icons{
 	height:80%;
 	width:100%;
+<<<<<<< HEAD
 	margin-top:13%;
+=======
+	margin-top:17%;
+>>>>>>> eb79f7431a62e47a72a792311ecc1a8951c63868
 }
 
 img{

@@ -1,7 +1,6 @@
 var page=document.getElementById("wikiPage");
 var counter=0;
 
-<<<<<<< HEAD
 function toOrbits(){
 	function timeout(){
 	document.location.href = "index.html";
@@ -9,8 +8,6 @@ function toOrbits(){
 	setTimeout(timeout,500);
 }
 
-=======
->>>>>>> eb79f7431a62e47a72a792311ecc1a8951c63868
 function myFunction(){
 	
 		if(counter==0){
