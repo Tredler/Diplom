@@ -1,5 +1,16 @@
 var page=document.getElementById("wikiPage");
 var counter=0;
+
+<<<<<<< HEAD
+function toOrbits(){
+	function timeout(){
+	document.location.href = "index.html";
+	}
+	setTimeout(timeout,500);
+}
+
+=======
+>>>>>>> eb79f7431a62e47a72a792311ecc1a8951c63868
 function myFunction(){
 	
 		if(counter==0){
@@ -14,7 +25,6 @@ function myFunction(){
 document.addEventListener("click", function(e){
         e.preventDefault();
         if(e.target.hasAttribute("name")){
-			// setTimeout(document.body.style.background="#000000c9", 3000);
 			document.getElementById("infoPage").style.display="block";
 			document.getElementById("infoPage").style.animation = "SummonPages .5s ease-in-out forwards";
         }
