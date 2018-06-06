@@ -138,11 +138,10 @@ function f( cadrHeight, ElemId) {
 
 }
 
-if (document.getElementById('backbtn')) {
+if (document.getElementById('lightbtn')) {
+    f(6, 'lightbtn');
     f(5.5, 'backbtn');
     f(6.5, 'greenbtn');
-    f(6.5, 'bluebtn');
-    f(6, 'lightbtn');
 }
 else {
     f(3.1, 'teleport');

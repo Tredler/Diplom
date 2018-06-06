@@ -1,0 +1,209 @@
+﻿body{
+	background-color:#d6d6d6;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+.background{
+	position: absolute;
+	height: 95vh;
+	max-height: 90vh;
+	width: 200vw;
+	max-width: 90vh;
+	min-width: 85vh;
+	margin-top: 2.5vh;
+	left: 50%;
+	Transform:translate(-50%);
+	background:url(image/sketh_maket.png) no-repeat center/contain;
+}
+
+.control-block{
+	position:relative;
+	height:50%;
+	width:50%;
+	left:-37%;
+	top:40%;
+	background:url(image/controlblok.png) no-repeat center/contain;
+}
+.ctrl-btn{
+	position:absolute;
+	top:13%;
+	left:28%;
+	width:30%;
+	height:18%;
+	cursor:pointer;
+	background:url(image/ctrlbtn.png) no-repeat center/contain;
+	background-size:60%;
+	background-position:0% 0%;
+}
+
+.upbtn{											
+	position:absolute;
+	width: 100%;
+	height:100%;
+	z-index:1;
+}
+.RedGrey{
+	position:relative;
+	width: 20%;
+	height:20%;
+	top:10%;
+	left:45%;
+}
+.btn_red{
+	position:absolute;
+	margin-top:56%;
+	margin-left:41%;
+	width:30%;
+	height:30%;
+	cursor:pointer;
+	background:url(image/nopkaGO.png) no-repeat center/contain;
+	z-index:0;
+}
+.btn_grey{
+	position:absolute;
+	margin-top:72%;
+	margin-left:33%;
+	width:45%;
+	height:20%;
+	background:url(image/podlogkaGO.png) no-repeat center/contain;
+	z-index:1;
+}
+.btn_red:active{
+	margin-top:65%;
+}
+
+#red_lock{
+	position:absolute;
+	width: 13%;
+	height:12%;
+	top:16.5%;
+	left:50%;
+	z-index:5;
+	transform-origin:100% 100%;
+	/* animation:lockRotate 1s forwards; */
+	background-color:#0000009e;
+}
+
+#lamp{
+	position:absolute;
+	height: 25vh;
+	width: 30vh;
+	background: url(image/lampa3.png) no-repeat;
+	top:2%;
+	left:24.5%;
+	background-size:cover;`
+}
+
+#lightbtn{
+	position:absolute;
+	top:31.5%;
+	left:71.7%;
+	width:15%;
+	height:7%;
+	cursor:pointer;
+	background:url(image/svet2.png) no-repeat center/contain;
+	background-size:40%;
+}
+.greenbtn{
+	position:absolute;
+	top:56%;
+	left:56%;
+	width:6%;
+	height:6%;
+	cursor:pointer;
+	background:url(image/zelknopka2.png) no-repeat center/cover;
+	background-position:0% 0%;
+}
+.backbtn{
+	position:absolute;
+	top:67.5%;
+	left:48.4%;
+	width:5%;
+	height:5%;
+	cursor:pointer;
+	background:url(image/nazknopka2.png) no-repeat center/contain;
+	background-size:100%;
+}
+
+.downbtn{											
+	position:absolute;
+	width: 100%;
+	height:100%;
+	z-index:-3;
+}
+
+#bottle{
+	position:absolute;
+	top:2%;
+	left:-18.5%;
+	width:70%;
+	height:70%;
+	background:url(image/limonad1.png) no-repeat center/contain;
+}
+#detector{
+	position:absolute;
+	top:55.5%;
+	left:32.5%;
+	width:15%;
+	height:15%;
+	background:url(image/fondathika.png) no-repeat center/contain;
+}
+#hint{
+	position:absolute;
+	top:45%;
+	left:33%;
+	width:32%;
+	height:40%;
+	background:url(image/tvport2.png) no-repeat center/contain;
+}
+
+@keyframes lockRotate{
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(90deg);
+	}
+}
+
+@keyframes spin {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(-180deg);
+	}
+}
+@keyframes bottle{
+	from{
+		top:2%;
+	}
+	to{
+		top:25%;
+	}
+}
+@keyframes card{
+	from{
+		top:45%;
+	}
+	to{
+		top:22%;
+	}
+}@keyframes card2{
+	 from{
+		top:22%;
+	 }
+	 to{
+		top:45%;
+	 }
+ }
+@keyframes lampa{
+	from{
+		background-position:0% 0%;
+	}
+	to{
+		background-position:0% 157%;
+	}
+}

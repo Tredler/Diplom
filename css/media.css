@@ -4,17 +4,13 @@ and (max-device-width: 480px) {
   .top1{
     background-position: 150vw 5vh;
     animation: move none;
-/* 	right:0%; */
-
-/* 	top:-10%; */
 	height: 90%;
 	width: 70%;
   }
   .top2{
     background-position: 20vw 5vh;
     animation: move none;
-   left:20%;
-/* 	top:-7%; */
+    left:20%;
 	height: 60%;
 	width: 60%;
   }
@@ -27,7 +23,6 @@ and (max-device-width: 480px) {
   }
    .down2{
   	background-position: 0vw 38vh;
-/*     background-position: bottom; */
     animation: move none;
   }
   .cat{
@@ -83,8 +78,7 @@ and (max-device-width: 480px) {
    
 }
 
-@media only screen		/* ÃƒÂÃ‚Â³ÃƒÂÃ‚Â¾Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â¸ÃƒÂÃ‚Â·ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â½Ãƒâ€˜Ã¢â‚¬Å¡ÃƒÂÃ‚Â°ÃƒÂÃ‚Â»Ãƒâ€˜Ã…â€™ÃƒÂÃ‚Â½ÃƒÂÃ‚Â¾ÃƒÂÃ‚Âµ ÃƒÂÃ‚Â¿ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â»ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â¶ÃƒÂÃ‚ÂµÃƒÂÃ‚Â½ÃƒÂÃ‚Â¸ÃƒÂÃ‚Âµ*/
-  /* and ( min-height:700px)  */
+@media only screen	
 and (min-device-height: 320px)
 and (max-device-height: 480px) {
   .top1{

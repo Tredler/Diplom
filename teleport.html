@@ -3,56 +3,42 @@
 <head>
 	<meta charset="utf-8">
 	<title>Blackat</title>
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/CatLoad.css" rel="stylesheet">
+	<link href="css/styleTeleport.css" rel="stylesheet">
+	<link href="css/mediaTeleport.css" rel="stylesheet">
 	<link rel="shortcut icon" href="css/image/blackatIcon.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body onload="LoadCat()">
+<body>
 <div class="container">
 
-	<div id="loader">
-		<div id="window"></div>
-		<div id="cat"></div>
-	</div>
+	<section id="myDiv" class="background">
 	
-	<div style="display:none;" id="myDiv" class="background">
-		<img class="background" src="css\image\rama2.0.png">
-		<div class="upbtns">
-			<div id="lampa"></div>
-			<audio id="Wow" src="signal.mp3" controls></audio>
-			<div class="btnRedGrey">
-				<div class="btn_red" onclick="myFunction()">
-					<img class="btn_red" src="css\image\nopkaGO.png">
-				</div>		
-				<div class="btn_grey">
-					<img class="btn_grey" src="css\image\podlogkaGO.png">
-				</div>
-			</div>	
-			<div id="backbtn" onclick="Calling404()"></div>
-			
-			<div class="btnGreenBlue">
-				<div id="greenbtn" onclick="card()"></div>
-				<div id="bluebtn" onclick="contact()"></div>
-			</div>
-			
+		<section class="upbtn">
 			<div id="lightbtn"></div>
+			<div class="greenbtn" onclick="card()"></div>
+			<div class="backbtn" onclick="ToOrbits()"></div>
+			<div id="lamp">
+				<audio id="Wow" src="signal.mp3" style="display: none;" controls></audio>
+			</div>
+			<div class="RedGrey">
+				<div class="btn_red" onclick="myFunction()" ></div>
+				<div class="btn_grey"></div>
+			</div>
+			<div id="red_lock"></div>
+		</section>
+		
+		<div class="control-block">
+			<div class="ctrl-btn" onclick="Redlock()"></div>
 		</div>
-		<div class="downbtns">
-			<div class="bottle" id="bot">
-				<img class="bottle" id="im" src="css\image\limonad1.png">
-			</div>
-			
-			<div id="datchik">
-			</div>
-			
-			<div id="card" class="card">
-				<img  class="card" src="css\image\tvport2.png">
-			</div>
-		</div>	
-			
-					
-	</div>
+		
+	</section>
+	<section class="downbtn background">
+			<div id="bottle"></div>
+			<div id="hint"></div>
+			<div id="detector"></div>
+	</section>
+		
 </div>
 
 	<script src="RedScript.js"></script>

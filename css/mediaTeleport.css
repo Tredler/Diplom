@@ -1,0 +1,45 @@
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 420px){
+		
+	.background{
+		height: 95vh;
+		max-height: 95vh;
+		max-width: 90vh;
+		min-width: 320px;
+		width: 200vw;
+		margin-top: 25vh;
+		left: 80%;
+	}
+
+	.btn_red{
+		margin-top:52%;
+		margin-left:38%;
+		width:39%;
+		height:35%;
+	}
+
+	.btn_red:active{
+		margin-top:60%;
+	}
+
+	.btn_grey{
+		margin-top:57%;
+		margin-left:29%;
+		width:55%;
+		height:55%;
+	}
+	#lamp{
+		top:4%;
+		left:24%;
+	}
+	#bottle{
+		top:2%;
+		left:-20%;
+	}
+	#lightbtn{
+		top:31.5%;
+		left:73%;
+	}
+	
+}
