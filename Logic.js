@@ -159,7 +159,7 @@ jQuery(function ($) {
                 $('#plList li:eq(' + id + ')').addClass('plSel');
                 index = id;
                 audio.src = mediaPath + tracks[id].file;
-                image.css({'background': 'url(css/image/fon/'+ tracks[id].img +') no-repeat center/contain'});//imagePath + tracks[id].img);
+                image.css({'background': 'url(image/fon/'+ tracks[id].img +') no-repeat center/contain'});//imagePath + tracks[id].img);
             },
             playTrack = function (id) {
                 loadTrack(id);

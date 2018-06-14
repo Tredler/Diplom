@@ -39,7 +39,7 @@ section{
 	position: absolute;
 	height:30%;
 	width:60%;
-	        transform:translate(50%, 50%);
+	transform:translate(50%, 50%);
 	left:-12%;
 	top: 20%;
 	z-index:10;
@@ -67,7 +67,7 @@ section{
 	left:20%;
 	top:21%;
 	cursor:pointer;
-	background:url(image/sun.png) no-repeat center/contain;
+	background:url(../image/sun.png) no-repeat center/contain;
 	z-index:100;
 }
 
@@ -79,7 +79,10 @@ section{
 	top:40%;
 	cursor:pointer;
 	animation: movePlanet1 20s infinite linear;
-	background:url(image/infoplanet.png) no-repeat center/contain;
+	background:url(../image/infoplanet.png) no-repeat center/contain;
+}
+.planet1:hover,.planet2:hover,.planet3:hover{
+	animation-play-state:paused;
 }
 
 .planet2{
@@ -90,7 +93,7 @@ section{
 	top:40%;
 	cursor:pointer;
 	animation: movePlanet2 12s infinite linear;
-	background:url(image/pl2.png) no-repeat center/contain;
+	background:url(../image/pl2.png) no-repeat center/contain;
 }
 
 .planet3{
@@ -101,7 +104,7 @@ section{
 	left:35%;
 	cursor:pointer;
 	animation: movePlanet3 12s infinite linear;
-	background:url(image/wikiplanet2.png) no-repeat center/contain;
+	background:url(../image/wikiplanet2.png) no-repeat center/contain;
 }
 
 #cat:hover{
@@ -115,7 +118,7 @@ section{
 	left:-3%;
 	bottom:-13%;
 	min-width:1100px;
-	background:url(image/cloudBotDown.png) no-repeat center;
+	background:url(../image/cloudBotDown.png) no-repeat center;
 	background-position: -30px 22px;
 	animation: moveBot 5s infinite ease-in-out alternate;
 	animation-delay:1s;
@@ -130,7 +133,7 @@ section{
 	min-width:730px;
 	left:-4%;
 	bottom:-19%;
-	background:url(image/cloudBotUp.png) no-repeat center;
+	background:url(../image/cloudBotUp.png) no-repeat center;
 	background-position: -30px 22px;
 	animation: moveBot 4s infinite ease-in-out alternate;
 	background-size:contain;
@@ -144,7 +147,7 @@ section{
 	height: 110%;
 	width: 110%;
 	min-width:850px;
-	background: url(image/cloudTopDown.png) no-repeat center/contain;
+	background: url(../image/cloudTopDown.png) no-repeat center/contain;
 	background-position: 55vw -75px;
 	animation: moveTop 5s infinite ease-in-out alternate;
 	z-index: 1;
@@ -157,7 +160,7 @@ section{
 	height: 80%;
 	width: 80%;
 	min-width:700px;
-	background: url(image/cloudTopUp.png) no-repeat center/contain;
+	background: url(../image/cloudTopUp.png) no-repeat center/contain;
 	background-position: 55vw -75px;
 	animation: moveTop 4s infinite ease-in-out alternate;
 	z-index: 1;

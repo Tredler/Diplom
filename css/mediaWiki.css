@@ -9,7 +9,7 @@ and (max-device-width: 420px){
 		margin: auto;
 		margin-top:0%;
 		margin-left:-1%;
-		background:url(image/androidWiki.svg) no-repeat center/contain;
+		background:url(../image/androidWiki.svg) no-repeat center/contain;
 	}
 
 	.backbtn{
@@ -18,7 +18,7 @@ and (max-device-width: 420px){
 		height:13%;
 		top:10%;
 		left:27%;
-		background:url(image/backmob.png) no-repeat center/contain;
+		background:url(../image/backmob.png) no-repeat center/contain;
 	}
 
 	#back{
@@ -38,7 +38,7 @@ and (max-device-width: 420px){
 		width:100%;
 		margin-top:-15%;
 		margin-left:-1.5%;
-		background:url(image/and_green.svg) no-repeat center/contain;
+		background:url(../image/and_green.svg) no-repeat center/contain;
 	}
 
 	#WikiMap{
@@ -67,7 +67,7 @@ and (max-device-width: 420px){
 		top:3%;
 		left:0%;
 		font-size: 28px;
-		background:url(image/infblockmob.png) no-repeat center/contain;
+		background:url(../image/infblockmob.png) no-repeat center/contain;
 	}
 
 	.closebtn{

@@ -14,7 +14,7 @@
     margin-top: 60%;
     left:100%;
     Transform:translate(-69%);
-    background: url(image/tv.png) no-repeat center/contain;
+    background: url(../image/tv.png) no-repeat center/contain;
 }
 
 
@@ -26,7 +26,7 @@
     max-height: 40%;
     max-width: 48vh;
     min-width: 40vh;
-    background: url(image/blackat.png) no-repeat center/contain;
+    background: url(../image/blackat.png) no-repeat center/contain;
     background-color:#13c1c1;
     background-position: 0% 28%;
 }
@@ -40,7 +40,7 @@
     max-width:45vh;
     min-width:21vh;
     left:65%;
-    background: url("image/01.png") no-repeat center/contain;
+    background: url(../image/01.png) no-repeat center/contain;
 }
 
 .ball:hover{
@@ -72,7 +72,7 @@
     height: 3vh;
     width: 10vh;
     /*display:flex;*/
-    background: url('image/ap.png') no-repeat;
+    background: url(../image/ap.png) no-repeat;
     background-size: cover;
 }
 .buttom_rewind{
@@ -82,11 +82,11 @@
 #btnNext,#btnPrev{
     height: 3vh;
     width: 5vw;
-    background: url("image/R.png") no-repeat;
+    background: url(../image/R.png) no-repeat;
     background-size: cover;
 }
 #btnPrev{
-    background: url("image/L.png") no-repeat;
+    background: url(../image/L.png) no-repeat;
     background-size: cover;
 }
 
@@ -101,23 +101,23 @@
 #aud{
     margin-top: 492%;
     margin-left: -405%;
-    background: url("image/pleer.png") no-repeat;
+    background: url(../image/pleer.png) no-repeat;
     background-size: cover;
 }
 
 #fonOff{
     margin-top: 492%;
-    background: url("image/muzuka.png") no-repeat;
+    background: url(../image/muzuka.png) no-repeat;
     background-size: cover;
 }
 
 #full_screen{
-    background: url(image/rozv.png) no-repeat;
+    background: url(../image/rozv.png) no-repeat;
     background-size: cover;
     animation: play .8s steps(3) infinite;
 }
 #teleport {
-    background: url(image/naz.png) no-repeat ;
+    background: url(../image/naz.png) no-repeat ;
     background-size: cover;
 
 }
@@ -137,7 +137,7 @@
     margin-left:-37.45vh;
     height: 7vh;
     width: 1.8vh;
-    background: url("image/c11.png") no-repeat center/contain;
+    background: url(../image/c11.png) no-repeat center/contain;
     background-size: cover;
 }
 
@@ -146,7 +146,7 @@
     margin-left: -24.86vh;
     height: 15vh;
     width: 2.3vh;
-    background: url("image/c12.png") no-repeat center/contain;
+    background: url(../image/c12.png) no-repeat center/contain;
 	background-size:cover;
 }
 
@@ -155,14 +155,14 @@
     margin-left: 1.7vh;
     height: 16vh;
     width: 2.3vh;
-    background: url("image/c13.png") no-repeat center/contain;
+    background: url(../image/c13.png) no-repeat center/contain;
 }
 #c4{
     margin-top:46.5vh;
     margin-left: 17.2vh;
     height: 16vh;
     width: 2.2vh;
-    background: url("image/c14.png") no-repeat center/contain;
+    background: url(../image/c14.png) no-repeat center/contain;
 }
 
 

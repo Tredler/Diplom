@@ -1,11 +1,10 @@
 function OrbitLinks(ElemID){
-		
-	var num=document.getElementById(ElemID);
+var num=document.getElementById(ElemID);
 
-	num.addEventListener("click", function(){
+	num.addEventListener("mousedown", function(){
 		switch(ElemID){
 			case "p1":
-				document.location.href = "";
+				document.location.href = "contacts.html";
 				break;
 			case "p2":
 				document.location.href = "";
@@ -19,6 +18,13 @@ function OrbitLinks(ElemID){
 			
 		}
 	});
+	// num.addEventListener("mouseover",function(){
+				// num.style.animationPlayState="paused";
+	// });
+	
+	// num.addEventListener("mouseout",function(){
+				// num.style.animationPlayState="running";
+	// });
 };
 	
 OrbitLinks("p1");

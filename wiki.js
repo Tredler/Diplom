@@ -22,17 +22,25 @@ function myFunction(){
 document.addEventListener("click", function(e){
         e.preventDefault();
         if(e.target.hasAttribute("name")){
-			document.getElementById("infoPage").style.display="block";
-			document.getElementById("infoPage").style.animation = "SummonPages .5s ease-in-out forwards";
+			// document.getElementById("infoPage").style.display="block";
+			// document.getElementById("infoPage").style.animation = "SummonPages .5s ease-in-out forwards";
+			function timeout(){
+	document.location.href = "infoPage.html";
+	}
+	setTimeout(timeout,500);
         }
     });
 
 function HidePage(){
-	document.getElementById("infoPage").style.animation = "SummonPagesRev .5s ease-in-out forwards";
-	function PageNone(){
-		document.getElementById("infoPage").style.display="none";
+	// document.getElementById("infoPage").style.animation = "SummonPagesRev .5s ease-in-out forwards";
+	// function PageNone(){
+		// document.getElementById("infoPage").style.display="none";
+	// }
+	// setTimeout(PageNone,500);
+	function timeout(){
+	document.location.href = "wiki.html";
 	}
-	setTimeout(PageNone,500);
+	setTimeout(timeout,500);
 }
 	
 	

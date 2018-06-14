@@ -5,7 +5,7 @@
 	<title>Blackat</title>
 	<link href="css/styleTeleport.css" rel="stylesheet">
 	<link href="css/mediaTeleport.css" rel="stylesheet">
-	<link rel="shortcut icon" href="css/image/blackatIcon.png" type="image/png">
+	<link rel="shortcut icon" href="image/blackatIcon.png" type="image/png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -15,9 +15,10 @@
 	<section id="myDiv" class="background">
 	
 		<section class="upbtn">
+			<div class="forHint" onmouseover="card()"></div>
 			<div id="lightbtn"></div>
-			<div class="greenbtn" onclick="card()"></div>
-			<div class="backbtn" onclick="ToOrbits()"></div>
+			<div id="greenbtn"></div>
+			<div id="backbtn" onclick="ToOrbits()"></div>
 			<div id="lamp">
 				<audio id="Wow" src="signal.mp3" style="display: none;" controls></audio>
 			</div>
@@ -25,13 +26,8 @@
 				<div class="btn_red" onclick="myFunction()" ></div>
 				<div class="btn_grey"></div>
 			</div>
-			<div id="red_lock"></div>
 		</section>
-		
-		<div class="control-block">
-			<div class="ctrl-btn" onclick="Redlock()"></div>
-		</div>
-		
+				
 	</section>
 	<section class="downbtn background">
 			<div id="bottle"></div>

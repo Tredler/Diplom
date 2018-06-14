@@ -1,22 +1,4 @@
 
-    function LoadCat() {
-		var time=(Math.random()*4000) + 2000;
-		document.body.style.background="#53C3EA";
-		if (document.getElementById("snow")) {
-            document.getElementById("snow").style.display = "none"
-        }
-        setTimeout(showPage, time);
-    }
-
-    function showPage() {
-        document.getElementById("loader").style.display = "none";
-        if (document.getElementById("snow")) {
-            document.getElementById("snow").style.display = "block"
-        }
-        document.getElementById("myDiv").style.display = "block";
-		document.body.style.background="";
-    }
-
 function IcicleFall(ElemID){
 var num=document.getElementById(ElemID);
 
@@ -48,7 +30,7 @@ function moveUp(back, time, cadrHeight, onOffMove) {
     moveDistation = cadrHeight;//проверка на начальное положение
     moveDistation = -moveDistation;//присваеваем отриц знач (для поднят вверх фона спрайта)
     move(back, moveDistation, onOffMove);
-    moveDistation += moveDistation;//прибавл к - -, тоесть двигаем фон еще на 1 кадр
+    moveDistation += moveDistation;//прибавл к - -, то есть двигаем фон еще на 1 кадр
 
     setTimeout(move(back, moveDistation, onOffMove), time);
 }
@@ -139,9 +121,9 @@ function f( cadrHeight, ElemId) {
 }
 
 if (document.getElementById('lightbtn')) {
-    f(6, 'lightbtn');
-    f(5.5, 'backbtn');
-    f(6.5, 'greenbtn');
+    f(6.4, 'lightbtn');
+    // f(5.52, 'backbtn');
+    f(6.3, 'greenbtn');
 }
 else {
     f(3.1, 'teleport');

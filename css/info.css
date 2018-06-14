@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+main{
+	width:100vw;
+	height:100vh;
+/* 	overflow:hidden; */
+	display:flex;
+}
+   
+#infoPage{
+	position:relative;
+	height:42vw;
+/* 	max-height:90%; */
+	min-height:341px;
+	width:66%;
+	min-width:499px;
+	/* max-width:130vh; */
+/* 	margin-top:1%; */
+	margin:25px auto;
+/* 	left:16%; */
+	background:url(../image/infblock.png) no-repeat center/contain;
+}
+
+.MiniPage{
+	position:absolute;
+	display:flex;
+	height:100%;
+	width:94%;
+	min-width:499px;
+	/* top:5%; */
+	left:3%;
+	/* background:#00000070; */
+}
+
+.WikiText{
+	position:absolute;
+	height:50%;
+	width:100%;
+	top:45%;
+}
+
+.Title{
+	font-size:40px;
+	text-align:center;
+}
+
+.MainText{
+	/* margin-top:3px; */
+	text-indent: 1.5em;
+	text-align:justify;
+	font-size:40px;
+	padding:30px;
+}
+
+.TextImage{
+	position:absolute;
+	height:35%;
+	width:30%;
+	top:7%;
+	left:35%;
+	margin:auto;
+	background:url(../image/3.png) no-repeat center/contain;
+}
+
+.closebtn{
+	position:absolute;
+	height:18%;
+	width:10%;
+	left:3%;
+	top:0%;
+	background:url(../image/X-button.png) no-repeat center/contain; 
+}
+
+#close{
+	position:absolute;
+	height:42%;
+	width:43%;
+	left:27%;
+	top:52%;
+	cursor:pointer;
+}
+
+img{
+	cursor:pointer;
+	height:30%;
+	width:18%;
+	padding:12px;
+	margin-left:15px;
+	margin-top:30px;
+	user-select:none;
+}
