@@ -1,6 +1,4 @@
 
-#loader{display:flex; flex-diration: column;}
-
 .container{
     display:flex;
     justify-content: space-around;

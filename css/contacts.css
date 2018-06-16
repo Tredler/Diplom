@@ -1,10 +1,11 @@
 ﻿body{
-	background-color:#73C5C5;
+	background-color:#d6d6d6;
 }
 
 #myDiv{
-	background: url(../image/rama.png) no-repeat center/contain;
+	background: url(../image/contacts.png) no-repeat center/contain;
 	margin-top:1vh;
+	/* max-width:470px; */
 	height:97vh;
 	display:flex;
     flex-direction:column;
@@ -15,9 +16,19 @@
 	top: 30%;
 }
 
+.title{
+	position: absolute;
+	top:4%; 
+    height:12vh;
+	width:55vh;
+	left:50%;
+    Transform:translate(-50%);
+	background: url(../image/comrads.png) no-repeat center/contain;
+}
+
 .contcts  {
     position: relative;  /*absolute*/
-	margin-top:2vh;
+	margin-top:0vh;
     min-height: 15vh;
     min-width: 57vh;
     cursor:pointer;
@@ -28,28 +39,28 @@
 
 #con1{
 	position: absolute;
-	top:10vh;
-	 background: url(../image/Blackat2.png) no-repeat center/contain;
+	top:15vh;
+	background: url(../image/shalopay.png) no-repeat center/contain;
 }
 
 #con2{
 	position:absolute;
-    top:22vh;
+    top:26vh;
 	background: url(../image/Техник.png) no-repeat center/contain;
 }
 #con3{
 	position:absolute;
-    top:34vh;
+    top:37vh;
 	background: url(../image/Типоверстальщи.png) no-repeat center/contain;
 }
 #con4{
 	position:absolute;
-    top:46vh;
+    top:48vh;
 	background: url(../image/Витя.png) no-repeat center/contain;
 }
 #con5{
 	position:absolute;
-    top:58vh;
+    top:59vh;
 	background: url(../image/евстафий.png) no-repeat center/contain;
 }
 #con6{
@@ -60,7 +71,7 @@
 }
 #con7{
 	position:absolute;
-    top:86vh;
+    top:84vh;
     min-height: 9vh;
     min-width: 10vh;
     Transform:translate(90%);
@@ -68,7 +79,7 @@
 }
 #con8{
 	position:absolute;
-    top:86vh;
+    top:84vh;
     min-height: 9vh;
     min-width: 10vh;
     Transform:translate(-153%);
@@ -76,7 +87,7 @@
 }
 #con9{
 	position:absolute;
-    top:86vh;
+    top:84vh;
     min-height: 9vh;
     min-width: 10vh;
     Transform:translate(-30%);

@@ -121,9 +121,9 @@ function f( cadrHeight, ElemId) {
 }
 
 if (document.getElementById('lightbtn')) {
-    f(6.4, 'lightbtn');
-    // f(5.52, 'backbtn');
-    f(6.3, 'greenbtn');
+	f(6.6, 'lightbtn');
+	f(5.57, 'choicebtn')
+    f(6.6, 'comixbtn');
 }
 else {
     f(3.1, 'teleport');

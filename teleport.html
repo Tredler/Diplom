@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Blackat</title>
+	<title>Teleport</title>
 	<link href="css/styleTeleport.css" rel="stylesheet">
 	<link href="css/mediaTeleport.css" rel="stylesheet">
 	<link rel="shortcut icon" href="image/blackatIcon.png" type="image/png">
@@ -16,8 +16,8 @@
 	
 		<section class="upbtn">
 			<div class="forHint" onmouseover="card()"></div>
-			<div id="lightbtn"></div>
-			<div id="greenbtn"></div>
+			
+			<div id="comixbtn" onclick="SummonPage()"></div>
 			<div id="backbtn" onclick="ToOrbits()"></div>
 			<div id="lamp">
 				<audio id="Wow" src="signal.mp3" style="display: none;" controls></audio>
@@ -26,6 +26,7 @@
 				<div class="btn_red" onclick="myFunction()" ></div>
 				<div class="btn_grey"></div>
 			</div>
+			<div id="lightbtn" onclick="lightOnOff()"></div>
 		</section>
 				
 	</section>
@@ -35,10 +36,17 @@
 			<div id="detector"></div>
 	</section>
 		
+	<div id="Btnboard">
+		<h2>Выберите комикс</h2>
+		<div id="choicebtn"></div>
+		<div class="closebtn">
+			<div id="close" onclick="HidePage()"></div>
+		</div>
+	</div>	
 </div>
 
-	<script src="RedScript.js"></script>
-	<script src="Animation.js"></script>
+	<script src="javascripts/RedScript.js"></script>
+	<script src="javascripts/Animation.js"></script>
 
 </body>
 </html>

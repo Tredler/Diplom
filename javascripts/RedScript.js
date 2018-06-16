@@ -28,6 +28,33 @@ function card(){
 	setTimeout(c2,7000);
 }
 
+function SummonPage(){
+	document.getElementById("Btnboard").style.animation = "SummonPages .5s ease-in-out forwards";
+	function Page(){
+		document.getElementById("Btnboard").style.display = "block";
+	}
+	setTimeout(Page,500);
+}
+
+function HidePage(){
+	document.getElementById("Btnboard").style.animation = "SummonPagesRev .5s ease-in-out forwards";
+	function PageNone(){
+		document.getElementById("Btnboard").style.display="none";
+	}
+	setTimeout(PageNone,500);
+	
+}
+
+counter=0;
+function lightOnOff(){
+		if(counter==0){
+			document.getElementById("lightbtn").style.boxShadow = "0 0 0 99999px rgba(0, 0, 0, 0.9)";
+			counter+=1;
+		}else if(counter==1){
+			document.getElementById("lightbtn").style.boxShadow = null;
+			counter-=1;
+		}
+}
 
 function toProfile(ElemID){
 var num=document.getElementById(ElemID);

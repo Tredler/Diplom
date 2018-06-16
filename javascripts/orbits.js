@@ -18,13 +18,7 @@ var num=document.getElementById(ElemID);
 			
 		}
 	});
-	// num.addEventListener("mouseover",function(){
-				// num.style.animationPlayState="paused";
-	// });
-	
-	// num.addEventListener("mouseout",function(){
-				// num.style.animationPlayState="running";
-	// });
+
 };
 	
 OrbitLinks("p1");

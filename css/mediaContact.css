@@ -1,0 +1,97 @@
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 420px){
+	
+	#myDiv{
+		background: url(../image/contacts.png) no-repeat center/contain;
+		margin-top:1vh;
+		/* max-width:470px; */
+		height:100vh;
+		display:flex;
+		flex-direction:column;
+		justify-content: space-around;
+	}
+
+	.background{
+		top: 30%;
+	}
+
+	.title{
+		position: absolute;
+		top:15%; 
+		height:12vh;
+		width:50vh;
+		left:50%;
+		Transform:translate(-50%);
+		background: url(../image/comrads.png) no-repeat center/contain;
+	}
+
+	.contcts  {
+		position: relative;  /*absolute*/
+		margin-top:-1.5vh;
+		min-height: 8vh;
+		min-width: 50vh;
+		cursor:pointer;
+		left:50%;
+		Transform:translate(-50%);
+
+	}
+
+	#con1{
+		position: absolute;
+		top:27.5vh;
+		background: url(../image/shalopay.png) no-repeat center/contain;
+	}
+
+	#con2{
+		position:absolute;
+		top:36.1vh;
+		background: url(../image/Техник.png) no-repeat center/contain;
+	}
+	#con3{
+		position:absolute;
+		top:44.5vh;
+		background: url(../image/Типоверстальщи.png) no-repeat center/contain;
+	}
+	#con4{
+		position:absolute;
+		top:52.9vh;
+		background: url(../image/Витя.png) no-repeat center/contain;
+	}
+	#con5{
+		position:absolute;
+		top:61.5vh;
+		background: url(../image/евстафий.png) no-repeat center/contain;
+	}
+	#con6{
+		position:absolute;
+		top:70vh;
+		background: url(../image/Полякок.png) no-repeat center/contain;
+		
+	}
+	#con7{
+		position:absolute;
+		top:80vh;
+		min-height: 7vh;
+		min-width: 8vh;
+		Transform:translate(90%);
+		background: url(../image/vk.png) no-repeat center/contain;
+	}
+	#con8{
+		position:absolute;
+		top:80vh;
+		min-height: 7vh;
+		min-width: 8vh;
+		Transform:translate(-153%);
+		background: url(../image/nazad.png) no-repeat center/contain;
+	}
+	#con9{
+		position:absolute;
+		top:80vh;
+		min-height: 7vh;
+		min-width: 8vh;
+		Transform:translate(-30%);
+		background: url(../image/inst.png) no-repeat center/contain;
+	}
+
+}

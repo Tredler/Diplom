@@ -35,11 +35,175 @@ and (max-device-width: 420px){
 	}
 	#bottle{
 		top:2%;
-		left:-20%;
+		left:0%;
 	}
 	#lightbtn{
 		top:31.5%;
-		left:73%;
+		left:79%;
+		width:3.2%;
+		height:6.5%;
+	}
+	#comixbtn{
+		top:55.5%;
+		left:54.5%;
+		width:10%;
+		height:7.5%;
+	}
+	#backbtn{
+		top:-3%;
+		left:4%;
+		width:23%;
+		height:23%;
+		background:url(../image/backbtn.png) no-repeat center/contain;
+	}
+	#Btnboard{
+		height: 90vh;
+		max-height: 100vh;
+		width: 90vw;
+		max-width: 65vh;
+		min-width: 65vh;
+		top: 18%;
+		left:23%;
+	}
+
+	h2{
+		position:absolute;
+		left:34%;
+		top:6%;
+		width:40vh;
+		font-size:32px;
+	}
+
+	#choicebtn{
+		top:30%;
+		left:10%;
+		height:14.8%;
+		min-height:70px;
+		width:20%;
+		min-width:70px;
+	}
+
+	.closebtn{
+		position:absolute;
+		top:0%;
+		left:5%;
+		width:23%;
+		height:23%;
+		background:url(../image/X-button.png) no-repeat center/contain; 
+	}
+
+	#close{
+		height:40%;
+		width:85%;
+		left:3%;
+		top:52%;
 	}
 	
+}
+
+@media only screen
+and (min-device-height: 320px)
+and (max-device-height: 420px){
+	.background{
+		height: 95vh;
+		max-height: 95vh;
+		max-width: 90vh;
+		min-width: 320px;
+		width: 200vw;
+		margin-top: 1vh;
+		left: 54%;
+	}
+	
+	.btn_red{
+		margin-top:52%;
+		margin-left:38%;
+		width:39%;
+		height:35%;
+	}
+
+	.btn_red:active{
+		margin-top:60%;
+	}
+
+	.btn_grey{
+		margin-top:57%;
+		margin-left:29%;
+		width:55%;
+		height:55%;
+	}
+
+	#lamp{
+		top:4%;
+		left:24%;
+	}
+
+	#bottle{
+		top:2%;
+		left:0%;
+	}
+
+	#lightbtn{
+		top:32%;
+		left:79.3%;
+		background-size:107%;
+	}
+
+	#comixbtn{
+		top:55.5%;
+		left:54.5%;
+		width:10%;
+		height:7.5%;
+	}
+
+	#backbtn{
+		top:-3%;
+		left:4%;
+		width:23%;
+		height:23%;
+		background:url(../image/backbtn.png) no-repeat center/contain;
+	}
+
+	#Btnboard{
+		height: 90vh;
+		max-height: 100vh;
+		width: 90vw;
+		max-width: 65vh;
+		min-width: 65vh;
+		top: -6%;
+		left:35%;
+	}
+	
+	h2{
+		position:absolute;
+		left:32%;
+		top:8%;
+		width:40vh;
+		font-size:18px;
+	}
+
+	#choicebtn{
+		top:30%;
+		left:10%;
+		height:14.8%;
+		min-height:50px;
+		width:20%;
+		min-width:50px;
+	}
+
+	.closebtn{
+		position:absolute;
+		top:0%;
+		left:5%;
+		width:23%;
+		height:23%;
+		background:url(../image/X-button.png) no-repeat center/contain; 
+	}
+
+	#close{
+		height:40%;
+		width:85%;
+		left:3%;
+		top:52%;
+	}
+
 }

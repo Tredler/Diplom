@@ -1,0 +1,169 @@
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 420px){
+	   
+	#infoPage{
+		position:relative;
+		height:115%;
+		width:80%;
+		left:-3%;
+		top:3%;
+		max-height:730px;
+		background:url(../image/infblockmob.png) no-repeat center/contain;
+	}
+
+	.MiniPage{
+		height:100%;
+		width:96%;
+		left:3%;
+		top:0%;
+/* 		background:aqua; */
+	}
+
+	.WikiText{
+		position:absolute;
+		height:55%;
+		width:90%;
+		top:40%;
+		left:4%;
+/* 		background:aliceblue; */
+	}
+
+	.Title{
+		font-size:35px;
+		text-align:center;
+		margin-top:-6%;
+	}
+
+	.MainText{
+		margin-top:5%;
+		text-indent: 1.5em;
+		text-align:justify;
+		font-size:27px;
+		padding:10px;
+	}
+
+	.TextImage{
+		position:absolute;
+		height:25%;
+		width:35%;
+		top:5%;
+		left:32%;
+		margin:auto;
+	}
+
+	.closebtn{
+		position:absolute;
+		height:22%;
+		width:22%;
+		left:2%;
+		top:-2%;
+		background:url(../image/X-button.png) no-repeat center/contain; 
+	}
+
+	#close{
+		position:absolute;
+		height:42%;
+		width:80%;
+		left:10%;
+		top:52%;
+		cursor:pointer;
+	}
+
+	img{
+		cursor:pointer;
+		height:30%;
+		width:18%;
+		padding:12px;
+		margin-left:15px;
+		margin-top:30px;
+		user-select:none;
+		pointer-events: none;
+	}
+
+}
+@media only screen
+and (min-device-height: 320px)
+and (max-device-height: 420px){
+   
+body{
+	overflow:hidden;
+}
+
+#infoPage{
+	height:100%;
+	width:115%;
+	left:0%;
+	top:-7%;
+	overflow:hidden;
+	background:url(../image/infblock.png) no-repeat center/contain;
+}
+
+.MiniPage{
+	height:100%;
+	width:83%;
+	left:9.5%;
+	top:0%;
+/* 	background:#5194d07a; */
+}
+
+.WikiText{
+	position:absolute;
+	height:50%;
+	width:95%;
+	top:45%;
+	left:2%;
+/* 	background:aliceblue; */
+}
+
+.Title{
+	font-size:30px;
+	text-align:center;
+}
+
+.MainText{
+	text-indent: 1.5em;
+	text-align:justify;
+	font-size:20px;
+	padding:3%;
+}
+
+.TextImage{
+	position:absolute;
+	height:35%;
+	width:28%;
+	top:3%;
+	left:35%;
+	margin:auto;
+}
+
+.closebtn{
+	position:absolute;
+	height:25%;
+	width:18%;
+	left:0%;
+	top:0%;
+	background:url(../image/X-button.png) no-repeat center/contain; 
+}
+
+#close{
+	position:absolute;
+	height:42%;
+	width:60%;
+	left:20%;
+	top:52%;
+	cursor:pointer;
+}
+
+img{
+	cursor:pointer;
+	height:30%;
+	width:18%;
+	padding:12px;
+	margin-left:15px;
+	margin-top:30px;
+	user-select:none;
+	pointer-events: none;
+}
+
+}

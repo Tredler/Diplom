@@ -79,7 +79,7 @@ section{
 	top:40%;
 	cursor:pointer;
 	animation: movePlanet1 20s infinite linear;
-	background:url(../image/infoplanet.png) no-repeat center/contain;
+	background:url(../image/contact.png) no-repeat center/contain;
 }
 .planet1:hover,.planet2:hover,.planet3:hover{
 	animation-play-state:paused;
